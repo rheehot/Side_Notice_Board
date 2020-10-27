@@ -2,8 +2,8 @@ import React from 'react';
 import { Redirect } from "react-router-dom";
 
 const NoticeList = React.lazy(() => import("./components/NoticeList"));
-const Join = React.lazy(() => import("./components/Join"));
-const Login = React.lazy(() => import("./components/Login"));
+const Join = React.lazy(() => import("./components/auth/Join"));
+const Login = React.lazy(() => import("./components/auth/Login"));
 
 const routes = [
   {

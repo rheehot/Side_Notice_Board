@@ -1,10 +1,12 @@
 import React from 'react';
 import NoticeList from "./components/NoticeList";
+import Join from "./components/auth/Join";
 
 const App = () => {
   return (
     <div>
-      <NoticeList />
+      <Join />
+      {/*<NoticeList />*/}
     </div>
   );
 };
